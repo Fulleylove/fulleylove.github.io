@@ -1,0 +1,215 @@
+body { 
+	font-size: 1.0em;
+	font-family: Helvetica;
+	background: #FFFFFF;
+}
+
+*{
+	font-family: Helvetica;
+}
+
+td { 
+	padding: 4px;
+}
+
+td.lumberHeader {
+	background: #32F100;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+td.lumberMain {
+	background: #96F97C;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+td.oilMain {
+	background: #7BD3F0;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+td.oilHeader {
+	background: #05A7DD;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+td.foodHeader {
+	background: #FF8300;
+	font-style:italic;
+	font-size: 1.3em;
+}
+
+td.lumberStore {
+	background: #96F97C;
+	font-size:0.8em;
+}
+
+td.lumberStoren{
+	background: #96F97C;
+	font-size:0.8em;
+	text-align: center;
+}
+
+td.oilStore {
+	background: #7BD3F0;
+	font-size:0.8em;
+}
+
+td.oilStoren {
+	background: #7BD3F0;
+	font-size:0.8em;
+	text-align: center;
+}
+
+td.infoRown {
+	background: #FFC17F;
+	font-size:0.8em;
+	text-align: center;
+}
+
+
+td.foodStore {
+	background: #FFC17F;
+	font-size :0.8em;
+}
+
+td.upperMenuHeader {
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: center;
+	padding:1;
+	background: #E3EBE1;
+}
+
+td.lowerMenuHeader {
+	font-size: 0.7em;
+	text-align: center;
+	padding:1;
+	background: #E3EBE1;
+}
+
+td.statRow {
+	background: #FD7F8D;
+	font-size: 0.8em;
+}
+
+td.statHeader {
+	background: #FB001D;
+	text-align: center;
+	font-weight: bold;
+}
+
+td.infoRow {
+	background: #FFC17F;
+	font-size: 0.8em;
+}
+
+td.infoHeader {
+	background: #FF8300;
+	text-align: center;
+	font-weight: bold;
+}
+
+#mainButtonLumber,  #mainButtonOil{
+	margin: 5px;
+}
+
+#col1, #col2, #statsDiv, #theBig {
+	float:left;
+	padding: 5px;
+}
+
+#infoDiv {
+	float:left;
+	width: 480px;
+	padding: 5px;
+	clear: both;
+}
+
+#subtitle {
+	font-style:italic;
+	padding: 10px;
+}
+
+#moneyCount {
+	font-style:bold;
+	font-size: 1.4em;
+	padding: 10px;
+}
+
+#lumberPrice,#oilPrice{
+	font-style:bold;
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+
+table.mainTables {
+	box-shadow: -4px 4px 3px #888888;
+}
+
+button[type=button] {
+  margin-left:4px;
+  height:30px;
+  cursor:pointer;
+	padding:2px;
+}
+
+.myButton, .buyItem , .sellButton, .mainButton {
+    ;
+
+	background-color: transparent;
+	border: 0px;
+}
+.myButton:hover,  .buyItem:hover , .sellButton:hover, .mainButton:hover {
+    
+	background-color: white;
+
+}
+.myButton:active, .buyItem:active, .sellButton:active, .mainButton:active {
+  position:relative;
+  top:2px;
+}
+
+.buyItem {
+  width: 185px;
+}
+
+
+.sellButton {
+  font-size:11px;
+  padding:1px; 
+  margin-left: 1px;
+}
+
+.mainButton {
+  font-size:16px;
+  font-weight:bold;
+  padding:3px;
+}
+/*
+     FILE ARCHIVED ON 09:17:02 Mar 25, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:47:47 Feb 06, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 48.947 (3)
+  esindex: 0.01
+  captures_list: 67.68
+  CDXLines.iter: 12.843 (3)
+  PetaboxLoader3.datanode: 75.731 (5)
+  exclusion.robots: 0.164
+  exclusion.robots.policy: 0.151
+  RedisCDXSource: 2.291
+  PetaboxLoader3.resolve: 111.693 (2)
+  load_resource: 185.418
+*/
