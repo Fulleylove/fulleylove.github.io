@@ -163,12 +163,14 @@ button[type=button] {
 .myButton, .buyItem , .sellButton, .mainButton {
     ;
 
-	background-color: transparent;
-	border: 0px;
+	padding : 4px;
+	border: 1px solid grey;
+	background-color: grey;
+	color: white;
 }
 .myButton:hover,  .buyItem:hover , .sellButton:hover, .mainButton:hover {
     
-	background-color: white;
+	background-color: #1c1c1c;
 
 }
 .myButton:active, .buyItem:active, .sellButton:active, .mainButton:active {
