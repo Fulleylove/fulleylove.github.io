@@ -447,17 +447,17 @@ $(document).ready(function(){
 		// set bold when have enough resources
 		// color:#000000;
 		for(var i = 0; i< fleets.length; i++) {
-			if(fleets[i].cost < money) {
+			if(fleets[i].cost <= money) {
 			  $("#" + fleets[i].name + "CostDiv").css("color","#000000");
 			} else {
 			  $("#" + fleets[i].name + "CostDiv").css("color","#999999");
 			}
-			if(fleets[i].costL < lumber) {
+			if(fleets[i].costL <= lumber) {
 			  $("#" + fleets[i].name + "CostLDiv").css("color","#000000");
 			} else {
 			  $("#" + fleets[i].name + "CostLDiv").css("color","#999999");
 			}
-			if(fleets[i].costO < oil) {
+			if(fleets[i].costO <= oil) {
 			  $("#" + fleets[i].name + "CostODiv").css("color","#000000");
 			} else {
 			  $("#" + fleets[i].name + "CostODiv").css("color","#999999");
